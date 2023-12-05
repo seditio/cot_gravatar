@@ -11,5 +11,5 @@ require_once cot_incfile('userimages', 'plug');
 
 if (empty($user_data['user_avatar']) && !empty($user_data['user_email']) && $cfg['plugin']['gravatar']['empty']) {
 	$av_hash = md5(mb_strtolower($user_data['user_email']));
-	$temp_array['AVATAR'] = cot_userimages_build('http://www.gravatar.com/avatar/' . $av_hash . '?size=' . $cfg['plugin']['gravatar']['size'], 'avatar');
+	$temp_array['AVATAR'] = cot_userimages_build('https://www.gravatar.com/avatar/' . $av_hash . '?size=' . $cfg['plugin']['gravatar']['size'], 'avatar');
 }

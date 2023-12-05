@@ -4,16 +4,16 @@
 Code=gravatar
 Name=[SEDBY] Gravatar
 Description=This plugin enables Gravatar support for the comments, user profile & forums
-Version=1.03
-Date=2012-09-29
-Author=Seditio.by
-Copyright=&copy; 2011-2012 Seditio.by
+Version=1.04
+Date=2023-12-05
+Author=Dmitri 'Kort' Beliavski
+Copyright=&copy; 2011-2023 Sed.by
 Notes=
 SQL=
-Auth_guests=R
-Lock_guests=12345A
-Auth_members=RW
-Lock_members=12345A
+Auth_guests=
+Lock_guests=12345RWA
+Auth_members=
+Lock_members=12345RWA
 Requires_plugins=userimages
 [END_COT_EXT]
 
